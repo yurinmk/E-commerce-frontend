@@ -1,0 +1,63 @@
+.container-geral .steps {
+  width: 80%;
+  height: 50px;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.container-geral .steps .space {
+  width: 100px;
+  height: 30px;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.container-geral .steps .space .point {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  margin: 4px;
+
+  background: rgba(0, 0, 0, 0.62);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.container-geral .steps .step-1 {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background: rgba(17, 112, 64, 0.57);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.container-geral .steps .step-2 {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background: #d6d5d591;
+  box-shadow: 0px 4px 4px #00000040;
+}
+
+.container-geral .steps .step-1 p {
+  font-size: 2rem;
+}
+
+.container-geral .steps .step-2 p {
+  font-size: 2rem;
+}

@@ -1,0 +1,21 @@
+.container-product {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 15vh 85vh;
+  grid-template-areas: "header" "main";
+}
+
+.container-product header {
+  grid-area: header;
+
+  display: flex;
+  justify-content: flex-end;
+  background-color: #117040;
+}
+
+.container-product main {
+  grid-area: main;
+
+  display: flex;
+  background-color: #fff;
+}

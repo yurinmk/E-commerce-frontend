@@ -1,0 +1,31 @@
+.container-geral .address {
+  width: 80%;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.container-geral .address p {
+  margin: 10px;
+}
+
+.container-geral .address button {
+  width: 80px;
+  height: 25px;
+  border: 0;
+  border-radius: 5px;
+
+  color: #0d62e2;
+  font-size: 1.6rem;
+
+  background: #b5f1f4;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+  cursor: pointer;
+}
+
+.container-geral .address button:active {
+  transform: scale(0.9);
+}

@@ -1,0 +1,104 @@
+/* CONTAINER DO MENU */
+
+.container-menu {
+  margin-top: 10px;
+  margin-right: 20px;
+  display: flex;
+  height: 60px;
+  align-items: center;
+}
+
+/* AREA BTN PROCURAR */
+
+.area-input input {
+  border-top-left-radius: 100px;
+  border-bottom-left-radius: 100px;
+  width: 300px;
+  height: 40px;
+}
+
+.container-menu .area-search {
+  display: flex;
+  align-items: center;
+}
+
+.container-menu .search {
+  width: 45px;
+  height: 45px;
+
+  border-top-left-radius: 100px;
+  border-top-right-radius: 100px;
+  border-bottom-left-radius: 100px;
+  border-bottom-right-radius: 100px;
+}
+
+/* ESTILO E AÇÕES PARA TODOS OS BTNS */
+
+.container-menu .area-menu {
+  align-items: center;
+}
+
+.container-menu button {
+  margin: 8px;
+  border: 0;
+
+  cursor: pointer;
+
+  background: linear-gradient(180deg, #ffffff 0%, rgba(255, 255, 255, 0) 100%),
+    #089739;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+}
+
+.container-menu button:active {
+  transform: scale(0.9);
+}
+
+/* AREA MENU */
+
+.container-menu nav {
+  height: 100%;
+}
+
+.container-menu nav ul {
+  display: flex;
+}
+
+.container-menu nav ul li {
+  list-style: none;
+}
+
+.container-menu nav ul li a {
+  color: #fff;
+  font-size: 18px;
+  padding: 20px;
+
+  transition: all 250ms linear 0s;
+}
+
+.container-menu nav ul li a:hover {
+  background: rgba(226, 252, 213, 0.15);
+}
+
+/* AREA BTNS ENTRAR E CARRINHO */
+
+.container-menu .area-btns {
+  display: flex;
+}
+
+.container-menu .btn-open {
+  width: 162px;
+  height: 40px;
+  border-radius: 60px;
+  color: #000000;
+  font-size: 24px;
+}
+
+.container-menu .btn-shopping-car {
+  width: 45px;
+  height: 45px;
+
+  border-top-left-radius: 100px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 100px;
+  border-bottom-right-radius: 100px;
+}

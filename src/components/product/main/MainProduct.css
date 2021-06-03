@@ -1,0 +1,8 @@
+.container-details {
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  justify-content: space-between;
+  background: #f8f6f6;
+}

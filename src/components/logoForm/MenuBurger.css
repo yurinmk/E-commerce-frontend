@@ -1,0 +1,86 @@
+.container-menuBurger {
+  margin: 20px;
+
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+}
+
+.container-menuBurger .menu-btn {
+  width: 80px;
+  height: 80px;
+
+  position: relative;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  cursor: pointer;
+  transition: all 0.5s ease-in-out;
+  /* border: 3px solid #fff; */
+}
+
+.container-menuBurger .menu-btn-open {
+  width: 80px;
+  height: 80px;
+
+  position: relative;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  cursor: pointer;
+  transition: all 0.5s ease-in-out;
+  /* border: 3px solid #fff; */
+}
+
+.container-menuBurger .menu-btn__burger {
+  width: 50px;
+  height: 6px;
+  border-radius: 5px;
+
+  background: #fff;
+  box-shadow: 0 2px 5px rgba(255, 101, 47, 0.2);
+
+  transition: all 0.5s ease-in-out;
+}
+
+.container-menuBurger .menu-btn__burger::before,
+.container-menuBurger .menu-btn__burger::after {
+  width: 50px;
+  height: 6px;
+  border-radius: 5px;
+
+  content: "";
+  position: absolute;
+
+  background: #fff;
+  box-shadow: 0 2px 5px rgba(255, 101, 47, 0.2);
+
+  transition: all 0.5s ease-in-out;
+}
+
+.container-menuBurger .menu-btn__burger::before {
+  transform: translateY(-16px);
+}
+
+.container-menuBurger .menu-btn__burger::after {
+  transform: translateY(16px);
+}
+
+.container-menuBurger .menu-btn-open .menu-btn__burger {
+  transform: translateX(-50px);
+  background: transparent;
+  box-shadow: none;
+}
+
+.container-menuBurger .menu-btn-open .menu-btn__burger::before {
+  transform: rotate(45deg) translate(35px, -35px);
+}
+
+.container-menuBurger .menu-btn-open .menu-btn__burger::after {
+  transform: rotate(-45deg) translate(35px, 35px);
+}

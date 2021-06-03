@@ -1,0 +1,46 @@
+.container-about {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 15vh 85vh;
+  grid-template-areas: "header" "main";
+}
+
+.container-about header {
+  grid-area: header;
+
+  display: flex;
+  background-color: #117040;
+}
+
+.container-about main {
+  grid-area: main;
+
+  display: flex;
+  background-color: #fff;
+}
+
+.container-about .container-main {
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container-about .container-main .container-text {
+  width: 70%;
+  margin-top: 50px;
+}
+
+.container-about .container-main .container-text .title h1 {
+  font-size: 3rem;
+  margin: 10px;
+}
+
+.container-about .container-main .container-text .text-about p {
+  font-size: 2rem;
+  text-indent: 40px;
+  text-align: justify;
+  margin: 10px;
+}

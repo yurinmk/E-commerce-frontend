@@ -1,0 +1,34 @@
+.container-logo {
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  align-items: center;
+
+  justify-content: space-between;
+}
+
+.container-logo .area-img {
+  height: 100%;
+  margin: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container-logo .area-txt {
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container-logo .area-txt p {
+  padding-right: 80px;
+  font-size: 40px;
+
+  font-family: "Dancing Script", cursive;
+  color: #fff;
+}
